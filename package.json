@@ -1,0 +1,14 @@
+{
+  "name": "mafia-nights-online",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Deployable online party Mafia with live private rooms and face-to-face voting",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/smoke.js && node test/deploy.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
